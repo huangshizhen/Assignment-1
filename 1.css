@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#mainBody {
+margin:auto;
+background-color:#3CF;
+width:1000px;
+}
+#imagesGrid {
+	margin:auto;
+	width:inherit;
+}
+#imagesGrid,th,td{
+	border:2px solid black;
+	border-collapse:collapse;
+}
+td {
+	width:245px;
+}
+img {
+	width:inherit;
+}
+img:hover {
+	cursor:pointer;
+	transform:scale(1.1,1.1);
+	border-radius:25px 25px 25px 25px;
+	box-shadow:10px 10px 7px #999;
+}
